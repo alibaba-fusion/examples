@@ -1,13 +1,8 @@
-const { injectBabelPlugin } = require('react-app-rewired');
+const { override, fixBabelImports } = require('customize-cra');
 
-module.exports = function override(config, env) {
-    config = injectBabelPlugin(
-        ['import', { 
-            libraryName: '@alifd/next', 
-            libraryDirectory: 'lib', 
-            style: true }
-        ],
-        config,
-    );
-    return config;
-};
+module.exports = override(
+    fixBabelImports('import', {
+        libraryName: '@alifd/next',
+        libraryDirectory: 'es'
+    })
+);
