@@ -12,3 +12,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.my-trigger-nav {
+  min-height: 30px;
+  color: #fff;
+  background: #333;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.rectangular {
+  width: 32px;
+  height: 32px;
+  background: #555;
+}
+
+.fusion-shell-action .next-icon {
+  margin: 0 30px;
+  color: #fff;
+}
+.container .fusion-shell ul {
+  margin: 0;
+}
+
+.next-menu-item.next-disabled .next-menu-item-text > a {
+  background: initial;
+}
+.fusion-shell-header .fusion-shell-navigation {
+  margin: 0;
+}
+
+.fusion-shell-main .fusion-shell-footer {
+  background: transparent;
+  text-align: left;
+  line-height: 25px;
+  font-family: AlibabaSans-Bold;
+  font-size: 16px;
+  color: #CCCCCC;
+  min-height: 48px;
+
+  padding-bottom: 20px;
+}
+.fusion-shell-aside .fusion-shell-localnavigation.fusion-shell-collapse .next-nav.next-ver .next-menu-item{
+  padding: 0!important;
+}
+.fusion-shell-aside.fusion-shell-navigation.fusion-shell-collapse.fusion-shell-mini {
+  width: 60px;
+}

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@alifd/next": "^1.11.6",
+    "@alifd/shell": "^1.1.0",
     "@alifd/theme-4": "^0.0.4",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.10",
