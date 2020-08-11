@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Switch checkedChildren="🌞" unCheckedChildren="🌙" onChange={handleChange}/>
+        <Switch unCheckedChildren="🌞" checkedChildren="🌙" onChange={handleChange}/>
         <h1>{content}</h1>
       </header>
     </div>
