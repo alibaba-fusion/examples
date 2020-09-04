@@ -1,6 +1,6 @@
-@import '~@alifd/next/dist/next.var.css';
-@import './theme-light.css';
-@import './theme-dark.css';
+/* @import '~@alifd/next/dist/next.var.css'; */
+
+/* @import '~@alifd/next/lib/switch/index.css'; */
 .App {
   text-align: center;
 }
