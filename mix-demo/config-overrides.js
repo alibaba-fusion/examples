@@ -4,8 +4,8 @@ module.exports = override(
     fixBabelImports('import', {
         libraryName: '@alifd/next',
         libraryDirectory: 'lib',
-        // customName: (name) => {
-        //   return `@alifd/next/lib/${name}/mobile/`;
-        // }
+        customName: (name) => {
+          return `@alifd/next/lib/${name}/mobile/`;
+        }
     })
 );

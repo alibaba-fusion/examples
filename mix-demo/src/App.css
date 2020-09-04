@@ -1,4 +1,4 @@
-@import '~@alifd/theme-4/dist/next.css';
+@import '~@alifd/next/dist/next.min.css';
 
 .App {
   text-align: center;
